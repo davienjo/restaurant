@@ -1,0 +1,45 @@
+@media (max-width: 768px) {
+  
+.img-logo{
+ width: 80%;
+}  
+  
+  /* .logo{
+    width: 80%;
+  }
+   */
+.boxes {
+    flex-direction: column;
+    align-items: center;
+  }
+  .box-3 {
+    width: 80%;
+    margin-bottom: 1rem;
+  }
+
+.container-3 {
+    grid-template-columns: 1fr;
+  }
+
+  .food-menu {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .description {
+    width: 100%;
+  }
+
+  input[type='button'] {
+    margin: 0 auto;
+  }
+}
+
+
+
+
+
+
+
+
+
