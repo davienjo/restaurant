@@ -21,7 +21,7 @@ html {
 
 body {
   background-image: linear-gradient(
-    to left,
+    to top,
     rgb(250, 139, 161),
     white,
     rgb(248, 149, 169)
@@ -558,3 +558,4 @@ h2 {
   padding: 1rem;
   font-size: small;
 }
+
