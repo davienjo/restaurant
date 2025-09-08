@@ -21,7 +21,7 @@ html {
 
 body {
   background-image: linear-gradient(
-    to left,
+    to top,
     rgb(250, 139, 161),
     white,
     rgb(248, 149, 169)
@@ -185,13 +185,7 @@ h2 {
 .h1-span {
   font-weight: 900;
   font-size: 3rem;
-  background: linear-gradient(
-    135deg,
-    #dc143c,      
-    #e02c50,     
-    #ff7f00,      
-    #ffeb3b      
-  );
+  background: linear-gradient(135deg, #dc143c, #e02c50, #ff7f00, #ffeb3b);
   background-size: 300%;
   background-clip: text;
   -webkit-background-clip: text;
@@ -233,14 +227,14 @@ h2 {
 
 /* Emoji bounce animation */
 @keyframes bounce {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0);
   }
   50% {
     transform: translateY(-6px);
   }
 }
-
 
 /* food search section */
 
@@ -547,7 +541,6 @@ h2 {
   color: var(--gray-base);
   font-weight: 500;
 }
-
 
 /* footer section */
 
